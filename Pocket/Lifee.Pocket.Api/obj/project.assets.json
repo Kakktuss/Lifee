@@ -1,0 +1,96 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Lifee.Pocket.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Lifee.Pocket.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lifee.Pocket.Application.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lifee.Pocket.Application/1.0.0": {
+      "type": "project",
+      "path": "../Lifee.Pocket.Application/Lifee.Pocket.Application.csproj",
+      "msbuildProject": "../Lifee.Pocket.Application/Lifee.Pocket.Application.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Lifee.Pocket.Application >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Kaktus\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "F:\\Projets\\Lifee\\Pocket\\Lifee.Pocket.Api\\Lifee.Pocket.Api.csproj",
+      "projectName": "Lifee.Pocket.Api",
+      "projectPath": "F:\\Projets\\Lifee\\Pocket\\Lifee.Pocket.Api\\Lifee.Pocket.Api.csproj",
+      "packagesPath": "C:\\Users\\Kaktus\\.nuget\\packages\\",
+      "outputPath": "F:\\Projets\\Lifee\\Pocket\\Lifee.Pocket.Api\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Kaktus\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/enovee/_packaging/CityscootModulesNodePackages/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "F:\\Projets\\Lifee\\Pocket\\Lifee.Pocket.Application\\Lifee.Pocket.Application.csproj": {
+              "projectPath": "F:\\Projets\\Lifee\\Pocket\\Lifee.Pocket.Application\\Lifee.Pocket.Application.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

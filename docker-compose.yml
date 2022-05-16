@@ -1,0 +1,29 @@
+version: "3.9"
+
+networks:
+  main:
+    driver: bridge
+
+services:
+  nats-streaming:
+    image: nats-streaming
+    networks:
+      - main
+    ports:
+      - "4222:4222"
+      - "8222:8222"
+  rss-api:
+    build: ./rss
+    ports:
+      - "8080:8080"
+    networks:
+      - main
+    
+  rss-puller:
+    build: ./rss/puller/
+    ports: 
+      - "8080:8080"
+    links: 
+      - rss-api
+    networks:
+      - main

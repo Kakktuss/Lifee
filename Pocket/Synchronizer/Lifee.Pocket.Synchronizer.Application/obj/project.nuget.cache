@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "A/fSpMoIWnjL7Yzb1dM181K5oGSBEPx3DZY4oDBHptmwDJpb8wxM2AU/JqGs9qF5phbHwCHRi8acF+L3rMMnUA==",
+  "success": true,
+  "projectFilePath": "F:\\Projets\\Lifee\\Pocket\\Synchronizer\\Lifee.Pocket.Synchronizer.Application\\Lifee.Pocket.Synchronizer.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kaktus\\.nuget\\packages\\hotbrokerbus.core\\1.0.0\\hotbrokerbus.core.1.0.0.nupkg.sha512",
+    "C:\\Users\\Kaktus\\.nuget\\packages\\hotbrokerbus.core.abstractions\\1.0.0\\hotbrokerbus.core.abstractions.1.0.0.nupkg.sha512",
+    "C:\\Users\\Kaktus\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
+    "C:\\Users\\Kaktus\\.nuget\\packages\\pocketsharp\\5.0.0\\pocketsharp.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

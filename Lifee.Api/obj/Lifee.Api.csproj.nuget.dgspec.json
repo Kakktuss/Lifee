@@ -1,0 +1,278 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Projets\\Lifee\\Lifee.Api\\Lifee.Api.csproj": {}
+  },
+  "projects": {
+    "F:\\Projets\\Lifee\\Lifee.Api\\Lifee.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Projets\\Lifee\\Lifee.Api\\Lifee.Api.csproj",
+        "projectName": "Lifee.Api",
+        "projectPath": "F:\\Projets\\Lifee\\Lifee.Api\\Lifee.Api.csproj",
+        "packagesPath": "C:\\Users\\Kaktus\\.nuget\\packages\\",
+        "outputPath": "F:\\Projets\\Lifee\\Lifee.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kaktus\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/EcomLabLLC/SEO_Olympus/_packaging/EcomLab/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\Projets\\Lifee\\Lifee.Application\\Lifee.Application.csproj": {
+                "projectPath": "F:\\Projets\\Lifee\\Lifee.Application\\Lifee.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.7.28, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Projets\\Lifee\\Lifee.Application\\Lifee.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Projets\\Lifee\\Lifee.Application\\Lifee.Application.csproj",
+        "projectName": "Lifee.Application",
+        "projectPath": "F:\\Projets\\Lifee\\Lifee.Application\\Lifee.Application.csproj",
+        "packagesPath": "C:\\Users\\Kaktus\\.nuget\\packages\\",
+        "outputPath": "F:\\Projets\\Lifee\\Lifee.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kaktus\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/EcomLabLLC/SEO_Olympus/_packaging/EcomLab/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\Projets\\Lifee\\Lifee.Notion.Client\\Lifee.Notion.Client.csproj": {
+                "projectPath": "F:\\Projets\\Lifee\\Lifee.Notion.Client\\Lifee.Notion.Client.csproj"
+              },
+              "F:\\Projets\\Lifee\\Lifee.Pocket.Client\\Lifee.Pocket.Client.csproj": {
+                "projectPath": "F:\\Projets\\Lifee\\Lifee.Pocket.Client\\Lifee.Pocket.Client.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentResults": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Projets\\Lifee\\Lifee.Notion.Client\\Lifee.Notion.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Projets\\Lifee\\Lifee.Notion.Client\\Lifee.Notion.Client.csproj",
+        "projectName": "Lifee.Notion.Client",
+        "projectPath": "F:\\Projets\\Lifee\\Lifee.Notion.Client\\Lifee.Notion.Client.csproj",
+        "packagesPath": "C:\\Users\\Kaktus\\.nuget\\packages\\",
+        "outputPath": "F:\\Projets\\Lifee\\Lifee.Notion.Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kaktus\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/EcomLabLLC/SEO_Olympus/_packaging/EcomLab/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Projets\\Lifee\\Lifee.Pocket.Client\\Lifee.Pocket.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Projets\\Lifee\\Lifee.Pocket.Client\\Lifee.Pocket.Client.csproj",
+        "projectName": "Lifee.Pocket.Client",
+        "projectPath": "F:\\Projets\\Lifee\\Lifee.Pocket.Client\\Lifee.Pocket.Client.csproj",
+        "packagesPath": "C:\\Users\\Kaktus\\.nuget\\packages\\",
+        "outputPath": "F:\\Projets\\Lifee\\Lifee.Pocket.Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kaktus\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/EcomLabLLC/SEO_Olympus/_packaging/EcomLab/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

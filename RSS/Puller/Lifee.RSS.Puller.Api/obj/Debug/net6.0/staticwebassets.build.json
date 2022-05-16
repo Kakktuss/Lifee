@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "fXTGo46kOZR4zq23I73BuqYGcI3Cakv0DvhbVGLHmT0=",
+  "Source": "Lifee.RSS.Puller.Api",
+  "BasePath": "_content/Lifee.RSS.Puller.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
